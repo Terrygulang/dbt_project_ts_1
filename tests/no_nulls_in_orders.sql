@@ -1,0 +1,1 @@
+{{ no_nulls_in_cols(ref("stg_orders"))}}

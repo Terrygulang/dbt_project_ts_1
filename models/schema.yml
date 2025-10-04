@@ -41,4 +41,6 @@ models:
               arguments:
                 field: customer_id
                 to: ref('stg_customers')
+          - greater_then_one
+
 
