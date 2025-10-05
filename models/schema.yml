@@ -2,7 +2,7 @@ version: 2
 
 models: 
   - name: customers
-    description: One record per customer
+    description: One record per customer, add a md file for this {{ doc("sample_doc_md")}}
     columns:
       - name: customer_id
         description: PK
